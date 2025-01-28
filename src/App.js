@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          mohamed irfan
+          mohamed saravanan 
         </a>
       </header>
     </div>
