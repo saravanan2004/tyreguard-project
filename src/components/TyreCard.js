@@ -1,10 +1,10 @@
 import React from "react";
 
-const TyreCard = ({ title, value }) => {
+const TyreCard = ({ type, value }) => {
   return (
-    <div className="bg-gray-800 p-4 rounded-xl shadow-lg text-center">
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <p className="text-2xl font-bold text-blue-400 mt-2">{value}</p>
+    <div className="bg-secondary p-4 rounded-lg shadow-md">
+      <h2 className="text-lg font-semibold">{type}</h2>
+      <p className="text-xl font-bold text-accent">{value}</p>
     </div>
   );
 };
